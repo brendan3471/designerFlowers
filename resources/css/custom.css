@@ -74,7 +74,7 @@ html body {
 
 #main-intro{
   /* background: linear-gradient(90deg, pink, #D4F1F4) !important; */
-  background-image: url(imgs/avif/flower-background.avif);
+  background-image: url(/imgs/avif/flower-background.avif);
   background-size: cover; 
   align-self: center;
   background-repeat: no-repeat; 

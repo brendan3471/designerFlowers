@@ -28,7 +28,7 @@
   @vite(['resources/js/app.js'])
 
 <!-- Favicon -->
-<link rel="icon" href="{{ asset('imgs/logo-img.png') }}" type="image/png">
+<link rel="icon" href="{{ asset('imgs/logo-2.png') }}" type="image/png">
 
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -42,8 +42,8 @@
   "@context": "https://schema.org",
   "@type": "Website",
   "name": "{{ $page->title }}",
-  "url": "{{ url()->current() }}"
-  "logo": "{{ asset('imgs/logo-img.png') }}"
+  "url": "{{ url()->current() }}",
+  "logo": "{{ asset('imgs/logo-2.png') }}"
 }
 </script>
 
