@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Allow everything else
+Allow: /
+
+# Sitemap location (update with your real URL)
+Sitemap: https://www.designerflowers.com/sitemap.xml
