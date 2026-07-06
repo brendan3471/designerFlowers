@@ -1,0 +1,18 @@
+/* Tailwind utilities (with prefix) */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* Bootstrap (via npm import) */
+
+/* @layer utilities {
+  .tw-collapse {
+    visibility: collapse;
+  }
+}
+
+
+
+
+
+
