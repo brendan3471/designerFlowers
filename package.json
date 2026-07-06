@@ -4,7 +4,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
-        "deploy": "php artisan export && npx wrangler pages deploy dist --project-name=designerflowers"
+        "deploy": "php artisan export && npx wrangler deploy"
     },
     "devDependencies": {
         "axios": "^1.6.4",
